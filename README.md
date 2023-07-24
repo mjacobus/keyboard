@@ -1,5 +1,7 @@
 # ADV360-PRO-ZMK
 
+For the original [readme](https://github.com/mjacobus/Adv360-Pro-ZMK/tree/v0-original-layout#adv360-pro-zmk)
+
 ## Modifying the keymap
 
 There is a GUI for editing the keymap. It is available at https://kinesiscorporation.github.io/Adv360-Pro-GUI
