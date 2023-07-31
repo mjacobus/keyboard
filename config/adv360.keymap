@@ -56,11 +56,11 @@
 
         layer_Symbols {
             bindings = <
-   &trans           &trans       &trans          &trans      &trans     &trans                &trans                                                                 &trans         &trans               &trans                 &none                  &none  &trans  &trans
-   &trans           &trans       &trans          &trans      &trans     &trans                &trans                                                                 &trans         &trans  &macro_double_quote   &macro_single_quote                 &trans  &trans  &trans
-&kp TILDE  &kp EXCLAMATION  &kp AT_SIGN        &kp HASH  &kp DOLLAR  &kp CARET  &kp LEFT_PARENTHESIS  &trans  &trans  &trans  &trans  &trans  &trans  &kp RIGHT_PARENTHESIS  &kp AMPERSAND      &kp KP_MULTIPLY  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans  &trans
-   &trans           &trans       &trans  &kp LEFT_BRACE      &trans     &trans                &trans  &trans  &trans  &trans  &trans  &trans  &trans                 &trans         &trans               &trans                &trans                 &trans  &trans  &trans
-   &trans           &trans       &trans          &trans      &trans                           &trans  &trans  &trans                  &trans  &trans                 &trans                              &trans                &trans                 &trans  &trans   &mo 0
+   &trans           &trans       &trans          &trans          &trans     &trans                &trans                                                                 &trans         &trans               &trans                 &none                  &none  &trans  &trans
+   &trans           &trans       &trans          &trans          &trans     &trans                &trans                                                                 &trans         &trans  &macro_double_quote   &macro_single_quote                 &trans  &trans  &trans
+&kp TILDE  &kp EXCLAMATION  &kp AT_SIGN        &kp HASH      &kp DOLLAR  &kp CARET  &kp LEFT_PARENTHESIS  &trans  &trans  &trans  &trans  &trans  &trans  &kp RIGHT_PARENTHESIS  &kp AMPERSAND      &kp KP_MULTIPLY  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans  &trans
+   &trans           &trans       &trans  &kp LEFT_BRACE  &kt UNDERSCORE     &trans                &trans  &trans  &trans  &trans  &trans  &trans  &trans                 &trans         &trans               &trans                &trans                 &trans  &trans  &trans
+   &trans           &trans       &trans          &trans          &trans                           &trans  &trans  &trans                  &trans  &trans                 &trans                              &trans                &trans                 &trans  &trans   &mo 0
             >;
         };
 
@@ -69,7 +69,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans  &trans                                                  &trans          &trans          &trans        &trans           &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans                                                  &trans          &trans        &kp HOME       &kp END           &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans          &trans          &trans        &trans           &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans          &trans   &kt PAGE_DOWN   &kt PAGE_UP           &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans                  &trans  &trans  &trans                          &trans        &trans           &trans  &trans   &mo 0
             >;
         };
