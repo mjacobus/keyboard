@@ -1,3 +1,9 @@
+macro_cmdshifttab: macro_cmdshifttab{
+compatible = "zmk,behavior-macro";
+label = "macro_cmdshifttab";
+#binding-cells = <0>;
+bindings = <&kp RCMD>, <&kp LEFT_SHIFT>, <&kp TAB>;
+};
 macro_cmdtab: macro_cmdtab{
 compatible = "zmk,behavior-macro";
 label = "macro_cmdtab";
