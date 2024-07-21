@@ -13,6 +13,7 @@
 #include <dt-bindings/zmk/backlight.h>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/rgb.h>
 
 / {
@@ -34,104 +35,84 @@
             compatible = "zmk,behavior-tap-dance";
             label = "T1";
             #binding-cells = <0>;
-            bindings =
-                <&kp N1>,
-                <&kp LA(LC(LG(N1)))>,
-                <&kp LA(LC(LS(LG(N1))))>;
+            bindings = <&kp N1>, <&kp LA(LC(LG(N1)))>, <&kp LA(LC(LS(LG(N1))))>;
         };
 
         t2: t2 {
             compatible = "zmk,behavior-tap-dance";
             label = "T2";
             #binding-cells = <0>;
-            bindings =
-                <&kp N2>,
-                <&kp LA(LC(LG(N2)))>,
-                <&kp LA(LC(LS(LG(N2))))>;
+            bindings = <&kp N2>, <&kp LA(LC(LG(N2)))>, <&kp LA(LC(LS(LG(N2))))>;
         };
 
         t3: t3 {
             compatible = "zmk,behavior-tap-dance";
             label = "T3";
             #binding-cells = <0>;
-            bindings =
-                <&kp N3>,
-                <&kp LA(LC(LG(N3)))>,
-                <&kp LA(LC(LS(LG(N3))))>;
+            bindings = <&kp N3>, <&kp LA(LC(LG(N3)))>, <&kp LA(LC(LS(LG(N3))))>;
         };
 
         t4: t4 {
             compatible = "zmk,behavior-tap-dance";
             label = "T4";
             #binding-cells = <0>;
-            bindings =
-                <&kp N4>,
-                <&kp LA(LC(LG(N4)))>,
-                <&kp LA(LC(LS(LG(N4))))>;
+            bindings = <&kp N4>, <&kp LA(LC(LG(N4)))>, <&kp LA(LC(LS(LG(N4))))>;
         };
 
         t5: t5 {
             compatible = "zmk,behavior-tap-dance";
             label = "T5";
             #binding-cells = <0>;
-            bindings =
-                <&kp N5>,
-                <&kp LA(LC(LG(N5)))>,
-                <&kp LA(LC(LS(LG(N5))))>;
+            bindings = <&kp N5>, <&kp LA(LC(LG(N5)))>, <&kp LA(LC(LS(LG(N5))))>;
         };
 
         t6: t6 {
             compatible = "zmk,behavior-tap-dance";
             label = "T6";
             #binding-cells = <0>;
-            bindings =
-                <&kp N6>,
-                <&kp LA(LC(LG(N6)))>,
-                <&kp LA(LC(LS(LG(N6))))>;
+            bindings = <&kp N6>, <&kp LA(LC(LG(N6)))>, <&kp LA(LC(LS(LG(N6))))>;
         };
 
         t7: t7 {
             compatible = "zmk,behavior-tap-dance";
             label = "T7";
             #binding-cells = <0>;
-            bindings =
-                <&kp N7>,
-                <&kp LA(LC(LG(N7)))>,
-                <&kp LA(LC(LS(LG(N7))))>;
+            bindings = <&kp N7>, <&kp LA(LC(LG(N7)))>, <&kp LA(LC(LS(LG(N7))))>;
         };
 
         t8: t8 {
             compatible = "zmk,behavior-tap-dance";
             label = "T8";
             #binding-cells = <0>;
-            bindings =
-                <&kp N8>,
-                <&kp LC(LA(Lg(N8)))>,
-                <&kp LA(LC(LS(LG(N8))))>;
+            bindings = <&kp N8>, <&kp LC(LA(Lg(N8)))>, <&kp LA(LC(LS(LG(N8))))>;
         };
 
         t9: t9 {
             compatible = "zmk,behavior-tap-dance";
             label = "T9";
             #binding-cells = <0>;
-            bindings =
-                <&kp N9>,
-                <&kp LA(LC(LG(N9)))>,
-                <&kp LA(LC(LS(LG(N9))))>;
+            bindings = <&kp N9>, <&kp LA(LC(LG(N9)))>, <&kp LA(LC(LS(LG(N9))))>;
         };
 
         t0: t0 {
             compatible = "zmk,behavior-tap-dance";
             label = "T0";
             #binding-cells = <0>;
-            bindings =
-                <&kp N0>,
-                <&kp LA(LC(LG(N0)))>,
-                <&kp LA(LC(LS(LG(N0))))>;
+            bindings = <&kp N0>, <&kp LA(LC(LG(N0)))>, <&kp LA(LC(LS(LG(N0))))>;
         };
     };
 
     combos { compatible = "zmk,combos"; };
+
+    macros {
+        mac: mac {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kt A>, <&macro_tap>;
+
+            label = "MAC";
+        };
+    };
 
     keymap {
         compatible = "zmk,keymap";
