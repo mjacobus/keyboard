@@ -36,8 +36,8 @@
             #binding-cells = <0>;
             bindings =
                 <&kp N1>,
-                <&kp LC(LA(LS(KP_NUMBER_1)))>,
-                <&kp LS(LA(LC(LG(KP_NUMBER_1))))>;
+                <&kp LA(LC(LG(N1)))>,
+                <&kp LA(LC(LS(LG(N1))))>;
         };
 
         t2: t2 {
@@ -46,8 +46,8 @@
             #binding-cells = <0>;
             bindings =
                 <&kp N2>,
-                <&kp LC(LA(LS(KP_NUMBER_2)))>,
-                <&kp LS(LA(LC(LG(KP_NUMBER_2))))>;
+                <&kp LA(LC(LG(N2)))>,
+                <&kp LA(LC(LS(LG(N2))))>;
         };
 
         t3: t3 {
@@ -56,8 +56,8 @@
             #binding-cells = <0>;
             bindings =
                 <&kp N3>,
-                <&kp LC(LA(LS(KP_NUMBER_3)))>,
-                <&kp LS(LA(LC(LG(KP_NUMBER_3))))>;
+                <&kp LA(LC(LG(N3)))>,
+                <&kp LA(LC(LS(LG(N3))))>;
         };
 
         t4: t4 {
@@ -66,8 +66,8 @@
             #binding-cells = <0>;
             bindings =
                 <&kp N4>,
-                <&kp LC(LA(LS(KP_NUMBER_4)))>,
-                <&kp LS(LA(LC(LG(KP_NUMBER_4))))>;
+                <&kp LA(LC(LG(N4)))>,
+                <&kp LA(LC(LS(LG(N4))))>;
         };
 
         t5: t5 {
@@ -76,8 +76,8 @@
             #binding-cells = <0>;
             bindings =
                 <&kp N5>,
-                <&kp LC(LA(LS(KP_NUMBER_5)))>,
-                <&kp LS(LA(LC(LG(KP_NUMBER_5))))>;
+                <&kp LA(LC(LG(N5)))>,
+                <&kp LA(LC(LS(LG(N5))))>;
         };
 
         t6: t6 {
@@ -86,8 +86,8 @@
             #binding-cells = <0>;
             bindings =
                 <&kp N6>,
-                <&kp LC(LA(LS(KP_NUMBER_6)))>,
-                <&kp LS(LA(LC(LG(KP_NUMBER_6))))>;
+                <&kp LA(LC(LG(N6)))>,
+                <&kp LA(LC(LS(LG(N6))))>;
         };
 
         t7: t7 {
@@ -96,8 +96,8 @@
             #binding-cells = <0>;
             bindings =
                 <&kp N7>,
-                <&kp LC(LA(LS(KP_NUMBER_7)))>,
-                <&kp LS(LA(LC(LG(KP_NUMBER_7))))>;
+                <&kp LA(LC(LG(N7)))>,
+                <&kp LA(LC(LS(LG(N7))))>;
         };
 
         t8: t8 {
@@ -106,8 +106,8 @@
             #binding-cells = <0>;
             bindings =
                 <&kp N8>,
-                <&kp LC(LA(LS(KP_NUMBER_8)))>,
-                <&kp LS(LA(LC(LG(KP_NUMBER_8))))>;
+                <&kp LC(LA(Lg(N8)))>,
+                <&kp LA(LC(LS(LG(N8))))>;
         };
 
         t9: t9 {
@@ -116,8 +116,8 @@
             #binding-cells = <0>;
             bindings =
                 <&kp N9>,
-                <&kp LC(LA(LS(KP_NUMBER_9)))>,
-                <&kp LS(LA(LC(LG(KP_NUMBER_9))))>;
+                <&kp LA(LC(LG(N9)))>,
+                <&kp LA(LC(LS(LG(N9))))>;
         };
 
         t0: t0 {
@@ -126,18 +126,8 @@
             #binding-cells = <0>;
             bindings =
                 <&kp N0>,
-                <&kp LC(LA(LS(KP_NUMBER_0)))>,
-                <&kp LS(LA(LC(LG(KP_NUMBER_0))))>;
-        };
-
-        new_behavior: new_behavior {
-            compatible = "zmk,behavior-hold-tap";
-            label = "NEW_BEHAVIOR";
-            #binding-cells = <2>;
-            tapping-term-ms = <200>;
-            quick_tap_ms = <175>;
-            flavor = "tap-preferred";
-            bindings = <&kp>, <&kp>;
+                <&kp LA(LC(LG(N0)))>,
+                <&kp LA(LC(LS(LG(N0))))>;
         };
     };
 
