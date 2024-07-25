@@ -45,6 +45,7 @@
             label = "T2";
             #binding-cells = <0>;
             bindings = <&kp N2>, <&kp LC(LA(LG(N2)))>, <&kp LS(LC(LA(LG(N2))))>;
+            tapping-term-ms = <150>;
         };
 
         t3: t3 {
@@ -52,6 +53,7 @@
             label = "T3";
             #binding-cells = <0>;
             bindings = <&kp N3>, <&kp LC(LA(LG(N3)))>, <&kp LS(LC(LA(LG(N3))))>;
+            tapping-term-ms = <150>;
         };
 
         t4: t4 {
@@ -59,6 +61,7 @@
             label = "T4";
             #binding-cells = <0>;
             bindings = <&kp N4>, <&kp LC(LA(LG(N4)))>, <&kp LS(LC(LA(LG(N4))))>;
+            tapping-term-ms = <150>;
         };
 
         t5: t5 {
@@ -66,6 +69,7 @@
             label = "T5";
             #binding-cells = <0>;
             bindings = <&kp N5>, <&kp LC(LA(LG(N5)))>, <&kp LS(LC(LA(LG(N5))))>;
+            tapping-term-ms = <150>;
         };
 
         t6: t6 {
@@ -73,6 +77,7 @@
             label = "T6";
             #binding-cells = <0>;
             bindings = <&kp N6>, <&kp LC(LA(LG(N6)))>, <&kp LS(LC(LA(LG(N6))))>;
+            tapping-term-ms = <150>;
         };
 
         t7: t7 {
@@ -80,6 +85,7 @@
             label = "T7";
             #binding-cells = <0>;
             bindings = <&kp N7>, <&kp LC(LA(LG(N7)))>, <&kp LS(LC(LA(LG(N7))))>;
+            tapping-term-ms = <150>;
         };
 
         t8: t8 {
@@ -87,6 +93,7 @@
             label = "T8";
             #binding-cells = <0>;
             bindings = <&kp N8>, <&kp LC(LA(LG(N8)))>, <&kp LS(LC(LA(LG(N8))))>;
+            tapping-term-ms = <150>;
         };
 
         t9: t9 {
@@ -94,6 +101,7 @@
             label = "T9";
             #binding-cells = <0>;
             bindings = <&kp N9>, <&kp LC(LA(LG(N9)))>, <&kp LS(LC(LA(LG(N9))))>;
+            tapping-term-ms = <150>;
         };
 
         t0: t0 {
@@ -101,6 +109,7 @@
             label = "T0";
             #binding-cells = <0>;
             bindings = <&kp N0>, <&kp LC(LA(LG(N0)))>, <&kp LS(LC(LA(LG(N0))))>;
+            tapping-term-ms = <150>;
         };
 
         rhm: rhm {
@@ -110,8 +119,8 @@
             tapping-term-ms = <300>;
             flavor = "tap-unless-interrupted";
             bindings = <&kp>, <&kp>;
-
-            quick-tap-ms = <175>;
+            quick-tap-ms = <200>;
+            require-prior-idle-ms = <125>;
             hold-trigger-key-positions = <0 1 2 3 4 5 6 14 15 16 17 18 19 20 28 29 30 31 32 33 34 35 36 46 47 48 49 50 51 52 60 61 62 63 64 65 66 67>;
         };
 
@@ -122,8 +131,8 @@
             tapping-term-ms = <300>;
             flavor = "tap-unless-interrupted";
             bindings = <&kp>, <&kp>;
-
-            quick-tap-ms = <175>;
+            quick-tap-ms = <200>;
+            require-prior-idle-ms = <125>;
             hold-trigger-key-positions = <7 8 9 10 11 12 13 21 22 23 24 25 26 27 38 39 40 41 42 43 44 45 54 55 56 57 58 59 69 70 71 72 73 74 75 37 38 53 68 69>;
         };
     };
