@@ -45,6 +45,7 @@
             label = "T2";
             #binding-cells = <0>;
             bindings = <&kp N2>, <&kp LC(LA(LG(N2)))>, <&kp LS(LC(LA(LG(N2))))>;
+
             tapping-term-ms = <150>;
         };
 
@@ -53,6 +54,7 @@
             label = "T3";
             #binding-cells = <0>;
             bindings = <&kp N3>, <&kp LC(LA(LG(N3)))>, <&kp LS(LC(LA(LG(N3))))>;
+
             tapping-term-ms = <150>;
         };
 
@@ -61,6 +63,7 @@
             label = "T4";
             #binding-cells = <0>;
             bindings = <&kp N4>, <&kp LC(LA(LG(N4)))>, <&kp LS(LC(LA(LG(N4))))>;
+
             tapping-term-ms = <150>;
         };
 
@@ -69,6 +72,7 @@
             label = "T5";
             #binding-cells = <0>;
             bindings = <&kp N5>, <&kp LC(LA(LG(N5)))>, <&kp LS(LC(LA(LG(N5))))>;
+
             tapping-term-ms = <150>;
         };
 
@@ -77,6 +81,7 @@
             label = "T6";
             #binding-cells = <0>;
             bindings = <&kp N6>, <&kp LC(LA(LG(N6)))>, <&kp LS(LC(LA(LG(N6))))>;
+
             tapping-term-ms = <150>;
         };
 
@@ -85,6 +90,7 @@
             label = "T7";
             #binding-cells = <0>;
             bindings = <&kp N7>, <&kp LC(LA(LG(N7)))>, <&kp LS(LC(LA(LG(N7))))>;
+
             tapping-term-ms = <150>;
         };
 
@@ -93,6 +99,7 @@
             label = "T8";
             #binding-cells = <0>;
             bindings = <&kp N8>, <&kp LC(LA(LG(N8)))>, <&kp LS(LC(LA(LG(N8))))>;
+
             tapping-term-ms = <150>;
         };
 
@@ -101,6 +108,7 @@
             label = "T9";
             #binding-cells = <0>;
             bindings = <&kp N9>, <&kp LC(LA(LG(N9)))>, <&kp LS(LC(LA(LG(N9))))>;
+
             tapping-term-ms = <150>;
         };
 
@@ -109,6 +117,7 @@
             label = "T0";
             #binding-cells = <0>;
             bindings = <&kp N0>, <&kp LC(LA(LG(N0)))>, <&kp LS(LC(LA(LG(N0))))>;
+
             tapping-term-ms = <150>;
         };
 
@@ -119,6 +128,7 @@
             tapping-term-ms = <300>;
             flavor = "tap-unless-interrupted";
             bindings = <&kp>, <&kp>;
+
             quick-tap-ms = <200>;
             require-prior-idle-ms = <125>;
             hold-trigger-key-positions = <0 1 2 3 4 5 6 14 15 16 17 18 19 20 28 29 30 31 32 33 34 35 36 46 47 48 49 50 51 52 60 61 62 63 64 65 66 67>;
@@ -131,6 +141,7 @@
             tapping-term-ms = <300>;
             flavor = "tap-unless-interrupted";
             bindings = <&kp>, <&kp>;
+
             quick-tap-ms = <200>;
             require-prior-idle-ms = <125>;
             hold-trigger-key-positions = <7 8 9 10 11 12 13 21 22 23 24 25 26 27 38 39 40 41 42 43 44 45 54 55 56 57 58 59 69 70 71 72 73 74 75 37 38 53 68 69>;
@@ -142,11 +153,11 @@
 
         default_layer {
             bindings = <
-&kp GRAVE   &kp 1                  &kp 2              &kp 3              &kp 4                &kp 5    &none                                                                                                &mo 5      &kp 6    &kp 7                 &kp 8                &kp 9              &kp 0                     &kp EQUAL
-&kp TAB     &kp Q                &kp W            &kp E            &kp R              &kp T  &none                                                                                                &none      &kp Y  &kp U               &kp I              &kp O            &kp P                   &kp BSLH
-&kp ESCAPE  &kp A  &kp S  &kp D  &kp F  &kp G  &kp MINUS      &kp LEFT_ALT  &kp LS(LC(LA(LEFT_GUI)))      &kp RS(RC(RA(RIGHT_GUI)))  &kp RIGHT_ALT  &kp MINUS  &kp H  &kp J  &kp K   &kp L  &kp SEMI  &kp SQT
-&kp LSHFT   &kp Z                &kp X            &kp C            &kp V              &kp B                               &kp LC(LA(LEFT_GUI))          &kp RC(RA(RIGHT_GUI))                                &kp N  &kp M               &kp COMMA          &kp DOT          &kp FSLH                &kp RSHFT
-&kp LCTRL   &none                &mo 3            &none            &mo 1                     &kp BACKSPACE  &kp DELETE    &kp RGUI                      &kp LGUI                   &kp ENTER      &kp SPACE         &kp LEFT_BRACKET    &kp RIGHT_BRACKET  &mo 3            &none                   &kp RCTRL
+&kp GRAVE   &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &none                                                                                                &mo 5      &kp N6  &kp N7     &kp N8            &kp N9             &kp N0    &kp MINUS
+&kp TAB     &kp Q   &kp W   &kp E   &kp R   &kp T   &none                                                                                                &none      &kp Y   &kp U      &kp I             &kp O              &kp P     &kp BSLH
+&kp ESCAPE  &kp A   &kp S   &kp D   &kp F   &kp G   &kp EQUAL      &kp LEFT_ALT  &kp LS(LC(LA(LEFT_GUI)))      &kp RS(RC(RA(RIGHT_GUI)))  &kp RIGHT_ALT  &kp MINUS  &kp H   &kp J      &kp K             &kp L              &kp SEMI  &kp SQT
+&kp LSHFT   &kp Z   &kp X   &kp C   &kp V   &kp B                                &kp LC(LA(LEFT_GUI))          &kp RC(RA(RIGHT_GUI))                                &kp N   &kp M      &kp COMMA         &kp DOT            &kp FSLH  &kp RSHFT
+&kp LCTRL   &none   &mo 3   &none   &mo 1           &kp BACKSPACE  &kp DELETE    &kp RGUI                      &kp LGUI                   &kp ENTER      &kp SPACE          &kp EQUAL  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &none     &kp RCTRL
             >;
         };
 
