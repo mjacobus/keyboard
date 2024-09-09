@@ -48,7 +48,7 @@
             bindings = <
 &trans  &trans          &trans  &trans  &trans  &trans  &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans                  &trans
 &trans  &trans          &trans  &trans  &trans  &trans  &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans                  &trans
-&trans  &mt LEFT_WIN A  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mt LEFT_WIN SEMICOLON  &trans
+&trans  &hm LEFT_WIN A  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &hm LEFT_WIN SEMICOLON  &trans
 &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                  &trans
 &trans  &trans          &trans  &trans  &trans          &trans  &trans  &trans                  &trans  &trans  &trans          &trans  &trans  &trans  &trans                  &trans
             >;
