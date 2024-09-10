@@ -46,11 +46,11 @@
 
         MAC_OVERLAY {
             bindings = <
-&trans  &trans          &trans  &trans  &trans  &trans  &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans                  &trans
-&trans  &trans          &trans  &trans  &trans  &trans  &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans                  &trans
-&trans  &hm LEFT_WIN A  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &hm LEFT_WIN SEMICOLON  &trans
-&trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                  &trans
-&trans  &trans          &trans  &trans  &trans          &trans  &trans  &trans                  &trans  &trans  &trans          &trans  &trans  &trans  &trans                  &trans
+&trans  &trans   &trans  &trans  &trans  &trans  &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans           &trans
+&trans  &trans   &trans  &trans  &trans  &trans  &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans           &trans
+&trans  &lt 8 A  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &lt 8 SEMICOLON  &trans
+&trans  &trans   &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans           &trans
+&trans  &trans   &trans  &trans  &trans          &trans  &trans  &trans                  &trans  &trans  &trans          &trans  &trans  &trans  &trans           &trans
             >;
         };
 
@@ -111,6 +111,16 @@
 &trans  &kp PLUS  &kp MINUS  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp DELETE  &kp BACKSPACE  &trans  &trans  &trans  &trans
 &trans  &trans    &trans     &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &kp BACKSPACE  &trans  &trans  &trans  &trans
 &trans  &trans    &trans     &trans                &trans                         &trans  &trans  &trans                  &trans  &trans  &trans              &trans         &trans  &trans  &trans  &trans
+            >;
+        };
+
+        MacOverlayTwo {
+            bindings = <
+&trans  &trans     &trans     &trans     &trans     &trans     &trans                                                  &trans  &trans     &trans     &trans     &trans     &trans     &trans
+&trans  &kp LG(Q)  &kp LG(W)  &kp LG(E)  &kp LG(R)  &kp LG(T)  &trans                                                  &trans  &kp LG(Y)  &kp LG(U)  &kp LG(O)  &kp LG(I)  &kp LG(P)  &trans
+&trans  &kp LG(A)  &kp LG(S)  &kp LG(D)  &kp LG(F)  &kp LG(G)  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LG(H)  &kp LG(J)  &kp LG(K)  &kp LG(L)  &trans     &trans
+&trans  &kp LG(Z)  &kp LG(X)  &kp LG(C)  &kp LG(V)  &kp LC(B)  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LG(N)  &kp LG(M)  &trans     &trans     &trans     &trans
+&trans  &trans     &trans     &trans     &trans                &trans  &trans  &trans                  &trans  &trans  &trans             &trans     &trans     &trans     &trans     &trans
             >;
         };
     };
