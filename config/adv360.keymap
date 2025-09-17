@@ -57,11 +57,11 @@
 
         fn_and_numbers {
             bindings = <
-&trans  &kp F1  &kp F2      &kp F3  &kp F4   &kp F5   &kp F6                                       &trans           &kp F7        &kp F8        &kp F9        &kp F10       &kp F11    &kp F12
-&trans  &kp F7  &kp F8      &kp F9  &kp F10  &kp F11  &kp F12                                      &kp KP_ASTERISK  &kp PLUS      &kp N7        &kp N8        &kp N9        &trans     &trans
-&trans  &trans  &trans      &trans  &trans   &trans   &trans   &trans  &trans      &trans  &trans  &kp KP_DIVIDE    &kp MINUS     &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp COLON  &trans
-&trans  &trans  &kp DELETE  &trans  &trans   &trans                    &trans      &trans                           &kp ASTERISK  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans     &trans
-&trans  &trans  &trans      &trans  &trans            &trans   &trans  &trans      &trans  &trans  &kp N0                         &kp N0        &trans        &trans        &trans     &trans
+&trans  &kp F1  &kp F2      &kp F3     &kp F4      &kp F5   &kp F6                                       &trans           &kp F7        &kp F8        &kp F9        &kp F10       &kp F11    &kp F12
+&trans  &kp F7  &kp F8      &kp F9     &kp F10     &kp F11  &kp F12                                      &kp KP_ASTERISK  &kp PLUS      &kp N7        &kp N8        &kp N9        &trans     &trans
+&trans  &trans  &trans      &kp COMMA  &kp PERIOD  &trans   &trans   &trans  &trans      &trans  &trans  &kp KP_DIVIDE    &kp MINUS     &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp COLON  &trans
+&trans  &trans  &kp DELETE  &trans     &trans      &trans                    &trans      &trans                           &kp ASTERISK  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans     &trans
+&trans  &trans  &trans      &trans     &trans               &trans   &trans  &trans      &trans  &trans  &kp N0                         &kp N0        &trans        &trans        &trans     &trans
             >;
         };
 
