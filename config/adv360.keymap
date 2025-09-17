@@ -65,11 +65,11 @@
 
         layer_Symbols {
             bindings = <
-&trans     &trans     &trans        &trans          &trans      &trans     &trans                                                  &trans                &trans         &trans               &none                 &none                  &trans  &kp DELETE
-&trans     &kp PLUS   &kp MINUS     &kp CARET       &kp SQT     &kp TILDE  &trans                                                  &trans                &kp EQUAL      &macro_double_quote  &macro_single_quote   &trans                 &trans  &trans
-&kp TILDE  &kp TILDE  &kp AT_SIGN   &kp HASH        &kp DOLLAR  &kp GRAVE  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LEFT_PARENTHESIS  &kp AMPERSAND  &kp KP_MULTIPLY      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans  &trans
-&trans     &kp EXCL   &kp QUESTION  &kp LEFT_BRACE  &kp UNDER   &kp EQUAL  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                &trans         &kp EXCLAMATION      &kp QUESTION          &trans                 &trans  &trans
-&trans     &trans     &trans        &trans          &trans                 &trans  &trans  &trans                  &trans  &trans  &trans                               &trans               &trans                &trans                 &trans  &mo 0
+&trans     &trans     &trans       &trans          &trans      &trans     &trans                                                  &trans                &trans         &trans               &none                 &none                  &trans  &kp DELETE
+&trans     &kp PLUS   &kp MINUS    &kp CARET       &kp SQT     &kp TILDE  &trans                                                  &trans                &kp EQUAL      &macro_double_quote  &macro_single_quote   &trans                 &trans  &trans
+&kp TILDE  &kp TILDE  &kp AT_SIGN  &kp HASH        &kp DOLLAR  &kp GRAVE  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LEFT_PARENTHESIS  &kp AMPERSAND  &kp KP_MULTIPLY      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans  &trans
+&trans     &kp EXCL   &kp DELETE   &kp LEFT_BRACE  &kp UNDER   &kp EQUAL  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                &trans         &kp EXCLAMATION      &kp QUESTION          &trans                 &trans  &trans
+&trans     &trans     &trans       &trans          &trans                 &trans  &trans  &trans                  &trans  &trans  &trans                               &trans               &trans                &trans                 &trans  &mo 0
             >;
         };
 
