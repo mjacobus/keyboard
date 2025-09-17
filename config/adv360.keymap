@@ -67,11 +67,11 @@
 
         LAYER_SYMBOLS {
             bindings = <
-&none      &none      &none         &none           &none           &none      &none                                  &trans                &none          &none              &none                 &none                  &none  &kp DELETE
-&none      &kp PLUS   &kp MINUS     &kp CARET       &kp SQT         &kp TILDE  &none                                  &none                 &none          &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE      &none                  &none  &none
-&kp TILDE  &kp TILDE  &kp AT        &kp HASH        &kp DOLLAR      &kp GRAVE  &none  &none  &none      &none  &none  &kp LEFT_PARENTHESIS  &kp AMPERSAND  &kp KP_MULTIPLY    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &none  &none
-&none      &kp EXCL   &kp QUESTION  &kp LEFT_BRACE  &kp UNDERSCORE  &kp EQUAL                &none      &none                               &none          &kp EXCL           &kp QUESTION          &none                  &none  &none
-&none      &trans     &trans        &none           &none                      &none  &none  &none      &none  &none  &kp C_MUTE                           &trans             &none                 &none                  &none  &none
+&none      &none      &none       &none           &none           &none      &none                                  &trans                &none          &none              &none                 &none                  &none  &kp DELETE
+&none      &kp PLUS   &kp MINUS   &kp CARET       &kp SQT         &kp TILDE  &none                                  &none                 &none          &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE      &none                  &none  &none
+&kp TILDE  &kp TILDE  &kp AT      &kp HASH        &kp DOLLAR      &kp GRAVE  &none  &none  &none      &none  &none  &kp LEFT_PARENTHESIS  &kp AMPERSAND  &kp KP_MULTIPLY    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &none  &none
+&none      &kp EXCL   &kp DELETE  &kp LEFT_BRACE  &kp UNDERSCORE  &kp EQUAL                &none      &none                               &none          &kp EXCL           &kp QUESTION          &none                  &none  &none
+&none      &trans     &trans      &none           &none                      &none  &none  &none      &none  &none  &kp C_MUTE                           &trans             &none                 &none                  &none  &none
             >;
         };
 
