@@ -47,11 +47,11 @@
 
         MAC_OVERLAY {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+&trans  &trans   &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans           &trans
+&trans  &trans   &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans           &trans
+&trans  &lt 6 A  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &lt 6 SEMICOLON  &trans
+&trans  &trans   &trans  &trans  &trans  &trans                  &trans      &trans                  &trans  &trans  &trans  &trans  &trans           &trans
+&trans  &trans   &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans  &trans           &trans
             >;
         };
 
@@ -89,9 +89,19 @@
             bindings = <
 &none  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &none                                                  &trans                  &none  &none       &none       &none  &none  &none
 &none  &none         &none         &none         &none         &none         &bootloader                                            &bootloader             &none  &none       &none       &none  &none  &none
-&none  &none         &none         &none         &none         &none         &none        &none  &none      &bt BT_CLR  &none       &rgb_ug RGB_MEFS_CMD 5  &none  &none       &none       &none  &none  &none
-&none  &none         &none         &none         &none         &none                             &none      &none                                           &none  &none       &none       &none  &none  &none
+&none  &none         &none         &none         &none         &none         &none        &none  &none      &bt BT_CLR  &none       &rgb_ug RGB_MEFS_CMD 5  &none  &none       &none       &to 0  &none  &none
+&none  &none         &none         &none         &none         &none                             &none      &none                                           &none  &to 1       &none       &none  &none  &none
 &none  &trans        &trans        &none         &none                       &none        &none  &none      &none       &bl BL_TOG  &rgb_ug RGB_TOG                &bl BL_INC  &bl BL_DEC  &none  &none  &none
+            >;
+        };
+
+        MAC_SPECIAL_KEYS {
+            bindings = <
+&trans  &trans     &trans     &trans     &trans     &trans     &trans                                      &trans  &trans     &trans     &trans     &trans     &trans     &trans
+&trans  &kp LG(Q)  &kp LG(W)  &kp LG(E)  &kp LG(R)  &kp LG(T)  &trans                                      &trans  &kp LG(Y)  &kp LG(U)  &kp LG(I)  &kp LG(O)  &kp LG(P)  &trans
+&trans  &kp LG(A)  &kp LG(S)  &kp LG(D)  &kp LG(F)  &kp LG(G)  &trans  &trans  &trans      &trans  &trans  &trans  &kp LG(H)  &kp LG(J)  &kp LG(K)  &kp LG(L)  &trans     &trans
+&trans  &kp LG(Z)  &kp LG(X)  &kp LG(C)  &kp LG(V)  &kp LC(B)                  &trans      &trans                  &kp LG(N)  &kp LG(M)  &trans     &trans     &trans     &trans
+&trans  &trans     &trans     &trans     &trans                &trans  &trans  &trans      &trans  &trans  &trans             &trans     &trans     &trans     &trans     &trans
             >;
         };
     };
