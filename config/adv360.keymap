@@ -67,11 +67,11 @@
 
         LAYER_SYMBOLS {
             bindings = <
-&none  &none             &none              &none           &none            &none           &none                                  &trans                &none           &none                &none                 &none                  &none  &kp DELETE
-&none  &kp PLUS          &kp MINUS          &kp CARET       &kp SQT          &kp UNDERSCORE  &none                                  &none                 &kp UNDERSCORE  &macro_double_quote  &macro_single_quote   &none                  &none  &none
-&none  &kp TILDE         &kp AT             &kp HASH        &kp DOLLAR       &kp GRAVE       &none  &none  &none      &none  &none  &kp LEFT_PARENTHESIS  &kp AMPERSAND   &kp KP_MULTIPLY      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &none  &none
-&none  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp EQUAL                     &none      &none                               &kp EQUAL       &kp EXCL             &kp QUESTION          &none                  &none  &none
-&none  &trans            &trans             &none           &none                            &none  &none  &none      &none  &none  &trans                                &trans               &none                 &none                  &none  &none
+&none  &none             &none              &none           &none            &none           &none                                  &trans                &none           &none                &none                 &none                  &none                 &kp DELETE
+&none  &kp PLUS          &kp MINUS          &kp CARET       &kp SQT          &kp UNDERSCORE  &none                                  &none                 &kp UNDERSCORE  &macro_double_quote  &macro_single_quote   &none                  &kp PIPE              &none
+&none  &kp TILDE         &kp AT             &kp HASH        &kp DOLLAR       &kp GRAVE       &none  &none  &none      &none  &none  &kp LEFT_PARENTHESIS  &kp AMPERSAND   &kp KP_MULTIPLY      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp NON_US_BACKSLASH  &none
+&none  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp EQUAL                     &none      &none                               &kp EQUAL       &kp EXCL             &kp QUESTION          &none                  &none                 &none
+&none  &trans            &trans             &none           &none                            &none  &none  &none      &none  &none  &trans                                &trans               &none                 &none                  &none                 &none
             >;
         };
 
