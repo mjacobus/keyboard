@@ -1,5 +1,7 @@
 # Kinesis Advantage 360 Pro ZMK Config
 
+For the original [readme](https://github.com/mjacobus/Adv360-Pro-ZMK/tree/v0-original-layout#adv360-pro-zmk)
+
 ## Modifying the keymap
 
 [The ZMK documentation](https://zmk.dev/docs) covers both basic and advanced functionality and has a table of OS compatibility for keycodes. Please note that the RGB Underglow, Backlight and Power Management sections are not relevant to the Advantage 360 Pro's custom ZMK fork. For more information see [this note](#note)
@@ -8,6 +10,8 @@
 * If you would prefer to leave GitHub and firmware flashing behind you can perform a one-time firmware update to gain access to Clique. Get started here: https://kinesis-ergo.com/360p-clique-upgrade/.
 
 Certain ZMK features (e.g. combos) require knowing the exact key positions in the matrix. They can be found in both image and text format [here](assets/key-positions.md)
+
+There is also this one: https://nickcoutsos.github.io/keymap-editor/
 
 ## Building the Firmware with GitHub Actions
 
