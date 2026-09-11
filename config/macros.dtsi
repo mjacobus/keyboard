@@ -230,6 +230,14 @@
     display-name = "Mac Strikethrough Text";
   };
 
+  // &bt_to <profile> <layer>: select BT profile, then switch to layer
+  bt_to: bt_to {
+    compatible = "zmk,behavior-macro-two-param";
+    #binding-cells = <2>;
+    bindings = <&macro_param_1to2 &bt BT_SEL MACRO_PLACEHOLDER>, <&macro_param_2to1 &to MACRO_PLACEHOLDER>;
+    display-name = "BT Profile + Layer";
+  };
+
   Double_Click: Double_Click {
     compatible = "zmk,behavior-macro";
     #binding-cells = <0>;
